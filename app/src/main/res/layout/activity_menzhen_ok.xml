@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menzhen.menzhen_ok">
+<androidx.cardview.widget.CardView
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="20dp"
+    app:cardCornerRadius="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/keshi_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/xiahuanxian"
+            android:padding="6dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/kehsi_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/xiahuanxian"
+            android:padding="6dp"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/keshi_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/xiahuanxian"
+            android:padding="6dp"
+            android:text="TextView" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/keshi_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/btn_style"
+        android:text="预约失败"
+        android:textColor="#FBFBFB" />
+</LinearLayout>

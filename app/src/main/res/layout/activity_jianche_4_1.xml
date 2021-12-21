@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".jianche.jianche_4_1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:gravity="center"
+        android:padding="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="车牌号：" />
+
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:id="@+id/jiahnche_4_1_chepai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="请输入车牌号"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:padding="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="车架号：" />
+
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:id="@+id/jiahnche_4_1_chejia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:background="@null"
+            android:hint="请输入车架号" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:padding="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="车辆类型" />
+
+        <TextView
+            android:visibility="gone"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="大型车辆" />
+
+        <Spinner
+            android:layout_marginLeft="10dp"
+            android:id="@+id/jianche_4_1_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:padding="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="公里数：" />
+
+        <EditText
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:hint="请输入公里数"
+            android:id="@+id/jiahnche_4_1_km"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:padding="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="手机号：" />
+
+        <EditText
+            android:id="@+id/jiahnche_4_1_hone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@null"
+            android:ems="10"
+            android:hint="请输入手机号"
+            android:inputType="textPersonName"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/jiahnche_4_1_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/btn_style"
+        android:text="保存"
+        android:textColor="#FFFFFF" />
+</LinearLayout>

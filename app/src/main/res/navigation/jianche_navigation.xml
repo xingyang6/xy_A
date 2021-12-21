@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/jianche_navigation"
+    app:startDestination="@id/navigation_jianche_1"
+    tools:ignore="UnusedNavigation">
+    <fragment
+        android:id="@+id/navigation_jianche_1"
+        android:name="com.example.a12_3.jianche.jianche_1"
+        android:label="预约须知"
+        tools:layout="@layout/fragment_jianche_1" />
+
+    <fragment
+        android:id="@+id/navigation_jianche_2"
+        android:name="com.example.a12_3.jianche.jianche_2"
+        android:label="立即预约"
+        tools:layout="@layout/fragment_jianche_2" />
+
+    <fragment
+        android:id="@+id/navigation_jianche_3"
+        android:name="com.example.a12_3.jianche.jianche_3"
+        android:label="我的预约"
+        tools:layout="@layout/fragment_jianche_3" />
+    <fragment
+        android:id="@+id/navigation_jianche_4"
+        android:name="com.example.a12_3.jianche.jianche_4"
+        android:label="车辆管理"
+        tools:layout="@layout/fragment_jianche_4" />
+</navigation>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".jianche.jianche_1">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="6dp"
+        android:text="预约须知"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 按照疫情期间防控工作要求，结合本馆工作实际，决定自2021年3月16日起恢复开馆，全面实行实名、分时段、网上预约。
+
+1.开放时间为9:30～16:00（15:30停止入馆），周一、周四例行闭馆（寒暑假及法定节假日开馆时间另行通知）。
+
+2.常设展厅每日观众限流5000人（上午2500人，下午2500人），上下午票以12:00为时间节点，采取线上限量预约，可预约七日内门票，预约上午票的观众须在12:00之前入场，预约下午票的观众须在12:00之后入场，如因个人原因未按预约日期或预约时段到馆的观众，视为放弃当日预约参观名额。
+
+3.一张证件只能预约1人，每个身份证号每日仅可预约1次。暂不接受团体预约和电话预约。
+
+4.观众须在入口处出示健康码、预约码、本人二代身份证原件（三者缺一不可），方可进入，16岁以下儿童及青少年在监护人带领下无需出示证件。儿童必须有成年监护人陪同才可入馆参观，不能独自入馆。
+
+5.无居民身份证的观众需持本人特殊证件（包括现役军人有效证件、港澳通行证、台胞证、护照）到游客中心服务台登记预约后方可入馆参观，全国(含港澳台地区)医护工作者凭本人有效证件(医师证或护士证)也可登记后入馆。
+
+6.未预约、未按预约日期及预约时段到馆、未携带本人有效身份证件、证件信息与预约信息不匹配、体温超过37.3℃（含）、健康码等防疫行程卡显示异常或未佩戴口罩的观众，暂不得进入馆区。
+
+7.闸机入场一卡一人，不得一卡多人进入（儿童由监护人刷卡），违反规定强行闯入者立即取消参观资格。
+
+8.限量预约开放期间，观众须全程正确佩戴口罩，文明有序观展。
+
+9.因疫情管控，外来人员和车辆禁止入校（沈师），请观众提前自行安排停车场所，避免造成交通拥堵。
+
+       敬请各位观众理解配合,与我们一起做好疫情防控工作，共同营造安全有序的参观环境。
+
+       祝您参观愉快！" />
+</LinearLayout>
+
+
+</ScrollView>

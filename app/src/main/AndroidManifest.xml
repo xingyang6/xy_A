@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a12_3">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".zhihui1dnagjain.tuijain_1_init"></activity>
+        <activity android:name=".zhihui1dnagjain.tuijian_1" />
+        <activity android:name=".zhihui1dnagjain.tuijain_2_init" />
+        <activity android:name=".zhihui1dnagjain.tuijian_2" />
+        <activity android:name=".zhihui1dnagjain.tuijian_3" />
+        <activity android:name=".zhihui1dnagjain.tuijain_4" />
+        <activity android:name=".zhihui1dnagjain.wenz_init" />
+        <activity android:name=".zhihui1dnagjain.zh_A" />
+        <activity android:name=".hours.house_init" />
+        <activity android:name=".hours.hours_home" />
+        <activity android:name=".menzhen.menzhen_ok" />
+        <activity android:name=".menzhen.menzhen_keshi_type_1" />
+        <activity android:name=".menzhen.menzhne_keshi_type" />
+        <activity android:name=".menzhen.menzhen_jiuzherne_init" />
+        <activity android:name=".menzhen.menzhen_jiuzhenrne" />
+        <activity android:name=".menzhen.menzhen_init" />
+        <activity android:name=".menzhen.menzhen_home" />
+        <activity android:name=".personal.personal_4" />
+        <activity android:name=".personal.personal_3" />
+        <activity android:name=".personal.personal_2" />
+        <activity android:name=".personal.personal_1" />
+        <activity android:name=".jianche.jianche_4_1" />
+        <activity android:name=".jianche.Adapter" />
+        <activity android:name=".jianche.jianche" />
+        <activity android:name=".home.home_search" />
+        <activity android:name=".home.news_init_pingl" />
+        <activity android:name=".home.nes_init" />
+        <activity android:name=".yindaoye.kaipinguangg" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login">
+        </activity>
+        <activity android:name=".yindaoye.Ip" />
+        <activity android:name=".yindaoye.yindaoye" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" />
+    </application>
+
+</manifest>
